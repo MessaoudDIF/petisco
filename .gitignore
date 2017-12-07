@@ -1,0 +1,11 @@
+*.~* 
+*.dcu
+*.local
+*._*
+*.dsk
+*.exe
+*.iden*
+*.tvs*
+*.dof
+*.deploy
+*.stat

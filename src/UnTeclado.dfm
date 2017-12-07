@@ -1,0 +1,1303 @@
+object Teclado: TTeclado
+  Left = 0
+  Top = 0
+  Width = 935
+  Height = 366
+  Color = 14143172
+  ParentBackground = False
+  ParentColor = False
+  TabOrder = 0
+  object pgTeclado: TPageControl
+    Left = 0
+    Top = 0
+    Width = 935
+    Height = 366
+    ActivePage = tabNumerico
+    Align = alClient
+    TabOrder = 0
+    object tabCompleto: TTabSheet
+      Caption = 'tabCompleto'
+      TabVisible = False
+      ExplicitLeft = 8
+      ExplicitTop = 28
+      ExplicitHeight = 355
+      object SpeedButton1: TSpeedButton
+        Left = 16
+        Top = 3
+        Width = 80
+        Height = 65
+        Caption = '1'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton2: TSpeedButton
+        Left = 100
+        Top = 3
+        Width = 80
+        Height = 65
+        Caption = '2'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton3: TSpeedButton
+        Left = 267
+        Top = 3
+        Width = 80
+        Height = 65
+        Caption = '4'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton4: TSpeedButton
+        Left = 183
+        Top = 3
+        Width = 80
+        Height = 65
+        Caption = '3'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton5: TSpeedButton
+        Left = 434
+        Top = 3
+        Width = 80
+        Height = 65
+        Caption = '6'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton6: TSpeedButton
+        Left = 350
+        Top = 3
+        Width = 80
+        Height = 65
+        Caption = '5'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton7: TSpeedButton
+        Left = 601
+        Top = 3
+        Width = 80
+        Height = 65
+        Caption = '8'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton8: TSpeedButton
+        Left = 517
+        Top = 3
+        Width = 80
+        Height = 65
+        Caption = '7'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton9: TSpeedButton
+        Left = 768
+        Top = 3
+        Width = 80
+        Height = 65
+        Caption = '0'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton10: TSpeedButton
+        Left = 684
+        Top = 3
+        Width = 80
+        Height = 65
+        Caption = '9'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton11: TSpeedButton
+        Left = 16
+        Top = 73
+        Width = 80
+        Height = 65
+        Caption = 'Q'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton12: TSpeedButton
+        Left = 100
+        Top = 73
+        Width = 80
+        Height = 65
+        Caption = 'W'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton13: TSpeedButton
+        Left = 267
+        Top = 73
+        Width = 80
+        Height = 65
+        Caption = 'R'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton14: TSpeedButton
+        Left = 183
+        Top = 73
+        Width = 80
+        Height = 65
+        Caption = 'E'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton15: TSpeedButton
+        Left = 434
+        Top = 73
+        Width = 80
+        Height = 65
+        Caption = 'Y'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton16: TSpeedButton
+        Left = 350
+        Top = 73
+        Width = 80
+        Height = 65
+        Caption = 'T'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton17: TSpeedButton
+        Left = 601
+        Top = 73
+        Width = 80
+        Height = 65
+        Caption = 'I'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton18: TSpeedButton
+        Left = 517
+        Top = 73
+        Width = 80
+        Height = 65
+        Caption = 'U'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton19: TSpeedButton
+        Left = 768
+        Top = 73
+        Width = 80
+        Height = 65
+        Caption = 'P'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton20: TSpeedButton
+        Left = 684
+        Top = 73
+        Width = 80
+        Height = 65
+        Caption = 'O'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton21: TSpeedButton
+        Left = 35
+        Top = 144
+        Width = 80
+        Height = 65
+        Caption = 'A'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton22: TSpeedButton
+        Left = 124
+        Top = 145
+        Width = 80
+        Height = 65
+        Caption = 'S'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton23: TSpeedButton
+        Left = 303
+        Top = 145
+        Width = 80
+        Height = 65
+        Caption = 'F'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton24: TSpeedButton
+        Left = 214
+        Top = 145
+        Width = 80
+        Height = 65
+        Caption = 'D'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton25: TSpeedButton
+        Left = 481
+        Top = 145
+        Width = 80
+        Height = 65
+        Caption = 'H'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton26: TSpeedButton
+        Left = 392
+        Top = 145
+        Width = 80
+        Height = 65
+        Caption = 'G'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton27: TSpeedButton
+        Left = 660
+        Top = 145
+        Width = 80
+        Height = 65
+        Caption = 'K'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton28: TSpeedButton
+        Left = 570
+        Top = 145
+        Width = 80
+        Height = 65
+        Caption = 'J'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton30: TSpeedButton
+        Left = 749
+        Top = 144
+        Width = 80
+        Height = 65
+        Caption = 'L'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton29: TSpeedButton
+        Left = 35
+        Top = 216
+        Width = 80
+        Height = 65
+        Caption = 'Z'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton31: TSpeedButton
+        Left = 124
+        Top = 220
+        Width = 80
+        Height = 65
+        Caption = 'X'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton32: TSpeedButton
+        Left = 303
+        Top = 220
+        Width = 80
+        Height = 65
+        Caption = 'V'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton33: TSpeedButton
+        Left = 213
+        Top = 220
+        Width = 80
+        Height = 65
+        Caption = 'C'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton34: TSpeedButton
+        Left = 481
+        Top = 220
+        Width = 80
+        Height = 65
+        Caption = 'N'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton35: TSpeedButton
+        Left = 392
+        Top = 220
+        Width = 80
+        Height = 65
+        Caption = 'B'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton37: TSpeedButton
+        Left = 571
+        Top = 220
+        Width = 80
+        Height = 65
+        Caption = 'M'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object btnBackSpace: TSpeedButton
+        Left = 749
+        Top = 220
+        Width = 80
+        Height = 65
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clTeal
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        Glyph.Data = {
+          721E0000424D721E00000000000036000000280000003C0000002B0000000100
+          1800000000003C1E0000C40E0000C40E00000000000000000000FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00ADADAD9191918B8B8B8C8C8C90909090909093
+          9393939393939393939393949494959595959595959595959595959595959595
+          9595959595959595959595959595959393939292929292929292929292929292
+          92929292929292929292929292929292929292959595929292909090FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF006355
+          4263564263564263564263564263564263564263564263564263564263564263
+          5642635642635642635642635642635642635642635642635642635642635642
+          6356426356426356426356426356426356426356426356426356426356426356
+          426356426356426356426356426356429D9D9DFFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF006355426356426355426356426356426356
+          4263564263564263564263564263564263564263564263564263564263564263
+          5642635642635642635642635642635642635642635642635642635642635642
+          6356426356426356426356426356426356426356426356426356426356426356
+          42635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          6356426356426356426356426355426356426356426356426356426356426356
+          4263564263564263564263564263564263564263564263564263564263564263
+          5642635642635642635642635642635642635642635642635642635642635642
+          635642635642635642635642635642635642635642635642A3A3A3FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00635642635642635542635542635542
+          6355426262627777777979797474747272727171717171717171717171717171
+          7171717171717171717171717171717171717171717171717171717171717171
+          7171717171717171717171717171717171717171717171727272747474727272
+          635642635642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF006355426356426356426355426355422F2F2FFFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00585858635642635642635642
+          A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0063554263554263554263554263
+          5542635542FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00525252635642635642635642A3A3A3FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00635542635542635542635542635542353535FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0052525263
+          5642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF006355426355426355426355
+          42635542363636FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00525252635642635642635642A3A3A3FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00635542635542635542635542635542313131FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF006355429F9F9FFFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          A6A6A6635642FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF004F4F4F635642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00635542635542635542
+          6355426355422A2A2AFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF006355
+          42635542635542989898FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00A4A4A4635642635642635642FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F6356426356
+          42635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00635542635542635542635542635542333333FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF006355426355426356426355426355429999
+          99FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF009A9A9A635642635642635542635642635642FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642A3A3A3FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0063554263554263
+          5542635542635542383838FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00797979635542635542635542635542635542999999FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF009B9B9B63564263564263554263
+          5642635642696969FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          4F4F4F635642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00635542635542635542635542635542393939FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00727272635542
+          635542635542635542635542939393FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF009595956356426355426355426355426356426E6E6EFFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642
+          A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF006355426355
+          42635542635542635542343434FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF006D6D6D635542635542635542635542
+          635542939393FFFF00FFFF00FFFF00FFFF00FFFF009898986356426356426356
+          42635642635542767676FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF004F4F4F635642635642635642A3A3A3FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF006355426355426355426355426355423D3D3DFFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF007C7C7C6355426355426355426355426355428E8E8EFFFF00
+          FFFF00FFFF00949494635642635542635642635642635642767676FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F63
+          5642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00635542
+          635542635542635542635542434343FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF007C
+          7C7C635542635542635542635542635542848484FFFF00959595635642635642
+          635542635642635642828282FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642A3A3A3FF
+          FF00FFFF00FFFF00FFFF00FFFF00635542635542635542635542635542434343
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0088888863554263564263
+          5642635642635542363636635642635642635542635642635642828282FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF004F4F4F635642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF0063
+          5542635542635542635542635542363636FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF0083838363554263564263554263564263564263
+          5642635542635542635642878787FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F6356426356
+          42635642A3A3A3FFFF00FFFF00FFFF0063554263554263554263554263554236
+          3636FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF008080806355426355426356426356426355426355426355427E7E7EFF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642A3A3A3FFFF00FFFF
+          00635542635542635542635542635542635542FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004343436356
+          42635642635542635542635542424242FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          4F4F4F635642635642635642A3A3A3FFFF00FFFF00FFFF006355426355426355
+          42635542635542393939FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF007B7B7B6355426355426355426355426355426355
+          42635542787878FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642
+          A6A6A6FFFF00FFFF00FFFF00FFFF006355426355426355426355426355423D3D
+          3DFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00838383
+          6355426355426355426355426355426355426355426356426355427F7F7FFFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF004F4F4F635642635642635642A6A6A6FFFF00FFFF00FFFF00
+          FFFF00FFFF006355426355426355426355426355423B3B3BFFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF007C7C7C635542635542635542635542635542
+          6355426355426355426355426355426355427F7F7FFFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F63
+          5642635642635642A6A6A6FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00635542
+          6355426355426355426355423C3C3CFFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0077
+          7777635542635542635542635542635542909090FFFF00999999635542635542
+          6355426356426355427B7B7BFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642A6A6A6FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00635542635542635542635542
+          6355423C3C3CFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF0071717163554263554263554263554263
+          55429C9C9CFFFF00FFFF00FFFF00AEAEAE635542635542635542635542635542
+          717171FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF004F4F4F635642635642635642A6A6A6FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF006355426355426355426355426355423E3E3EFFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          006E6E6E6355426355426355426355426355429E9E9EFFFF00FFFF00FFFF00FF
+          FF00FFFF00A3A3A36355426355426355426355426355426D6D6DFFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F6356426356
+          42635642A6A6A6FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00635542635542635542635542635542363636FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF006969696355426355426355426355
+          42635542999999FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00A5A5A563
+          55426355426355426355426355426D6D6DFFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642A6A6A6FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0063554263554263
+          5542635542635542343434FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF006C6C6C6355426355426355426355426355429A9A9AFFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00A0A0A063554263554263554263
+          55426355426C6C6CFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          4F4F4F635642635642635642A6A6A6FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF0063554263554263554263554263554230
+          3030FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00635542635542635542
+          6355426355429C9C9CFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF009F9F9F635542635542635542635542635542FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642
+          A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00635542635542635542635542635542313131FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF006355426355426355429B9B9BFFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          009B9B9B635542635542635542FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF004F4F4F635642635642635642A3A3A3FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF006355
+          42635542635542635542635542292929FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00635542A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00A4A4A4635542FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F63
+          5642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF006355426355426355426355
+          426355422C2C2CFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF004E4E4E635642635642635642A3A3A3FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00635542635542635542635542635542353535FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00575757635642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF006355426355426355426356426356423A3A3AFFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF005353536356426356
+          42635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00635542635542
+          6355426355426355422C2C2CFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF005B5B5B635642635642635642A3A3A3FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00635542635542635642635642635642
+          6356426C6C6C7979797878787777777474747474747474747474747171717171
+          7171717171717171717171717171717170707073737374747474747474747474
+          74747474747474747474747474747474747474747575757171717373737D7D7D
+          635642635642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00635542635542635642635642635642635642635642635642
+          6356426356426356426356426356426356426356426356426356426356426356
+          4263564263564263564263564263564263564263564263564263564263564263
+          5642635642635642635642635642635642635642635642635642635642635642
+          A5A5A5FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0063
+          5542635542635542635542635642635642635642635642635642635642635642
+          6356426356426356426356426356426356426356426356426356426356426356
+          4263564263564263564263564263564263564263564263564263564263564263
+          5642635642635642635642635642635642635642A3A3A3FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0063554263564263564263
+          5642635642635642635642635642635642635642635642635642635642635642
+          6356426356426356426356426356426356426356426356426356426356426356
+          4263564263564263564263564263564263564263564263564263564263564263
+          56426356426356429B9B9BFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00A5A5A587878785858584848486868687878787
+          87878787878787878787878A8A8A8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B
+          8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B
+          8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8D8D8D8F8F8F858585FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00}
+        ParentFont = False
+        Transparent = False
+        OnClick = btnBackSpaceClick
+      end
+      object SpeedButton38: TSpeedButton
+        Left = 124
+        Top = 291
+        Width = 616
+        Height = 56
+        Caption = ' '
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clTeal
+        Font.Height = -24
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object btnClose: TSpeedButton
+        Left = 847
+        Top = 3
+        Width = 80
+        Height = 65
+        Caption = 'X'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clRed
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        OnClick = btnCloseClick
+      end
+      object btnVirgula: TSpeedButton
+        Left = 660
+        Top = 220
+        Width = 80
+        Height = 65
+        Caption = ','
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+    end
+    object tabNumerico: TTabSheet
+      Caption = 'tabNumerico'
+      ImageIndex = 1
+      TabVisible = False
+      ExplicitLeft = 8
+      ExplicitTop = 10
+      object SpeedButton36: TSpeedButton
+        Left = 16
+        Top = 19
+        Width = 80
+        Height = 65
+        Caption = '1'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton39: TSpeedButton
+        Left = 116
+        Top = 19
+        Width = 80
+        Height = 65
+        Caption = '2'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton40: TSpeedButton
+        Left = 215
+        Top = 19
+        Width = 80
+        Height = 65
+        Caption = '3'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton41: TSpeedButton
+        Left = 17
+        Top = 106
+        Width = 80
+        Height = 65
+        Caption = '4'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton42: TSpeedButton
+        Left = 116
+        Top = 106
+        Width = 80
+        Height = 65
+        Caption = '5'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton43: TSpeedButton
+        Left = 216
+        Top = 106
+        Width = 80
+        Height = 65
+        Caption = '6'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton44: TSpeedButton
+        Left = 14
+        Top = 193
+        Width = 80
+        Height = 65
+        Caption = '7'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton45: TSpeedButton
+        Left = 116
+        Top = 193
+        Width = 80
+        Height = 65
+        Caption = '8'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton46: TSpeedButton
+        Left = 215
+        Top = 193
+        Width = 80
+        Height = 65
+        Caption = '9'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton47: TSpeedButton
+        Left = 116
+        Top = 280
+        Width = 80
+        Height = 65
+        Caption = '0'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = 6509890
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = False
+        OnClick = ProcessarTecla
+      end
+      object SpeedButton48: TSpeedButton
+        Left = 218
+        Top = 280
+        Width = 80
+        Height = 65
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clTeal
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        Glyph.Data = {
+          721E0000424D721E00000000000036000000280000003C0000002B0000000100
+          1800000000003C1E0000C40E0000C40E00000000000000000000FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00ADADAD9191918B8B8B8C8C8C90909090909093
+          9393939393939393939393949494959595959595959595959595959595959595
+          9595959595959595959595959595959393939292929292929292929292929292
+          92929292929292929292929292929292929292959595929292909090FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF006355
+          4263564263564263564263564263564263564263564263564263564263564263
+          5642635642635642635642635642635642635642635642635642635642635642
+          6356426356426356426356426356426356426356426356426356426356426356
+          426356426356426356426356426356429D9D9DFFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF006355426356426355426356426356426356
+          4263564263564263564263564263564263564263564263564263564263564263
+          5642635642635642635642635642635642635642635642635642635642635642
+          6356426356426356426356426356426356426356426356426356426356426356
+          42635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          6356426356426356426356426355426356426356426356426356426356426356
+          4263564263564263564263564263564263564263564263564263564263564263
+          5642635642635642635642635642635642635642635642635642635642635642
+          635642635642635642635642635642635642635642635642A3A3A3FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00635642635642635542635542635542
+          6355426262627777777979797474747272727171717171717171717171717171
+          7171717171717171717171717171717171717171717171717171717171717171
+          7171717171717171717171717171717171717171717171727272747474727272
+          635642635642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF006355426356426356426355426355422F2F2FFFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00585858635642635642635642
+          A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0063554263554263554263554263
+          5542635542FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00525252635642635642635642A3A3A3FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00635542635542635542635542635542353535FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0052525263
+          5642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF006355426355426355426355
+          42635542363636FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00525252635642635642635642A3A3A3FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00635542635542635542635542635542313131FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF006355429F9F9FFFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          A6A6A6635642FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF004F4F4F635642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00635542635542635542
+          6355426355422A2A2AFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF006355
+          42635542635542989898FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00A4A4A4635642635642635642FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F6356426356
+          42635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00635542635542635542635542635542333333FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF006355426355426356426355426355429999
+          99FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF009A9A9A635642635642635542635642635642FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642A3A3A3FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0063554263554263
+          5542635542635542383838FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00797979635542635542635542635542635542999999FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF009B9B9B63564263564263554263
+          5642635642696969FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          4F4F4F635642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00635542635542635542635542635542393939FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00727272635542
+          635542635542635542635542939393FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF009595956356426355426355426355426356426E6E6EFFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642
+          A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF006355426355
+          42635542635542635542343434FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF006D6D6D635542635542635542635542
+          635542939393FFFF00FFFF00FFFF00FFFF00FFFF009898986356426356426356
+          42635642635542767676FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF004F4F4F635642635642635642A3A3A3FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF006355426355426355426355426355423D3D3DFFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF007C7C7C6355426355426355426355426355428E8E8EFFFF00
+          FFFF00FFFF00949494635642635542635642635642635642767676FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F63
+          5642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00635542
+          635542635542635542635542434343FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF007C
+          7C7C635542635542635542635542635542848484FFFF00959595635642635642
+          635542635642635642828282FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642A3A3A3FF
+          FF00FFFF00FFFF00FFFF00FFFF00635542635542635542635542635542434343
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0088888863554263564263
+          5642635642635542363636635642635642635542635642635642828282FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF004F4F4F635642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF0063
+          5542635542635542635542635542363636FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF0083838363554263564263554263564263564263
+          5642635542635542635642878787FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F6356426356
+          42635642A3A3A3FFFF00FFFF00FFFF0063554263554263554263554263554236
+          3636FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF008080806355426355426356426356426355426355426355427E7E7EFF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642A3A3A3FFFF00FFFF
+          00635542635542635542635542635542635542FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004343436356
+          42635642635542635542635542424242FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          4F4F4F635642635642635642A3A3A3FFFF00FFFF00FFFF006355426355426355
+          42635542635542393939FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF007B7B7B6355426355426355426355426355426355
+          42635542787878FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642
+          A6A6A6FFFF00FFFF00FFFF00FFFF006355426355426355426355426355423D3D
+          3DFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00838383
+          6355426355426355426355426355426355426355426356426355427F7F7FFFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF004F4F4F635642635642635642A6A6A6FFFF00FFFF00FFFF00
+          FFFF00FFFF006355426355426355426355426355423B3B3BFFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF007C7C7C635542635542635542635542635542
+          6355426355426355426355426355426355427F7F7FFFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F63
+          5642635642635642A6A6A6FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00635542
+          6355426355426355426355423C3C3CFFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0077
+          7777635542635542635542635542635542909090FFFF00999999635542635542
+          6355426356426355427B7B7BFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642A6A6A6FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00635542635542635542635542
+          6355423C3C3CFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF0071717163554263554263554263554263
+          55429C9C9CFFFF00FFFF00FFFF00AEAEAE635542635542635542635542635542
+          717171FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF004F4F4F635642635642635642A6A6A6FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF006355426355426355426355426355423E3E3EFFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          006E6E6E6355426355426355426355426355429E9E9EFFFF00FFFF00FFFF00FF
+          FF00FFFF00A3A3A36355426355426355426355426355426D6D6DFFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F6356426356
+          42635642A6A6A6FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00635542635542635542635542635542363636FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF006969696355426355426355426355
+          42635542999999FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00A5A5A563
+          55426355426355426355426355426D6D6DFFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642A6A6A6FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0063554263554263
+          5542635542635542343434FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF006C6C6C6355426355426355426355426355429A9A9AFFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00A0A0A063554263554263554263
+          55426355426C6C6CFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          4F4F4F635642635642635642A6A6A6FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF0063554263554263554263554263554230
+          3030FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00635542635542635542
+          6355426355429C9C9CFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF009F9F9F635542635542635542635542635542FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F635642635642635642
+          A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00635542635542635542635542635542313131FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF006355426355426355429B9B9BFFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          009B9B9B635542635542635542FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF004F4F4F635642635642635642A3A3A3FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF006355
+          42635542635542635542635542292929FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00635542A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00A4A4A4635542FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF004F4F4F63
+          5642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF006355426355426355426355
+          426355422C2C2CFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF004E4E4E635642635642635642A3A3A3FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00635542635542635542635542635542353535FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00575757635642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF006355426355426355426356426356423A3A3AFFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF005353536356426356
+          42635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00635542635542
+          6355426355426355422C2C2CFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF005B5B5B635642635642635642A3A3A3FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00635542635542635642635642635642
+          6356426C6C6C7979797878787777777474747474747474747474747171717171
+          7171717171717171717171717171717170707073737374747474747474747474
+          74747474747474747474747474747474747474747575757171717373737D7D7D
+          635642635642635642635642A3A3A3FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00635542635542635642635642635642635642635642635642
+          6356426356426356426356426356426356426356426356426356426356426356
+          4263564263564263564263564263564263564263564263564263564263564263
+          5642635642635642635642635642635642635642635642635642635642635642
+          A5A5A5FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0063
+          5542635542635542635542635642635642635642635642635642635642635642
+          6356426356426356426356426356426356426356426356426356426356426356
+          4263564263564263564263564263564263564263564263564263564263564263
+          5642635642635642635642635642635642635642A3A3A3FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF0063554263564263564263
+          5642635642635642635642635642635642635642635642635642635642635642
+          6356426356426356426356426356426356426356426356426356426356426356
+          4263564263564263564263564263564263564263564263564263564263564263
+          56426356426356429B9B9BFFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00A5A5A587878785858584848486868687878787
+          87878787878787878787878A8A8A8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B
+          8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B
+          8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8D8D8D8F8F8F858585FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+          FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+          FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+          00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00}
+        ParentFont = False
+        Transparent = False
+        OnClick = btnBackSpaceClick
+      end
+      object SpeedButton49: TSpeedButton
+        Left = 318
+        Top = 19
+        Width = 80
+        Height = 65
+        Caption = 'X'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clRed
+        Font.Height = -27
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        OnClick = btnCloseClick
+      end
+    end
+  end
+end

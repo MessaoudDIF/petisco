@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{B442A02F-5CDC-4538-8D0F-848746960D53}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Petisco.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="PetiscoDashboard.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Petisco">
+        <MSBuild Projects="Petisco.dproj"/>
+    </Target>
+    <Target Name="Petisco:Clean">
+        <MSBuild Projects="Petisco.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Petisco:Make">
+        <MSBuild Projects="Petisco.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PetiscoDashboard">
+        <MSBuild Projects="PetiscoDashboard.dproj"/>
+    </Target>
+    <Target Name="PetiscoDashboard:Clean">
+        <MSBuild Projects="PetiscoDashboard.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PetiscoDashboard:Make">
+        <MSBuild Projects="PetiscoDashboard.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Petisco;PetiscoDashboard"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Petisco:Clean;PetiscoDashboard:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Petisco:Make;PetiscoDashboard:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
