@@ -102,7 +102,7 @@ begin
   _Sql.Active := False;
   _Sql.CommandText := 'select c.coma_oid, c.cl_oid, c.coma_mesa, c.coma_total, l.cl_cod ' +
     ' from coma c left join cl l on c.cl_oid = l.cl_oid ' +
-    ' where c.coma_stt = 0';
+    ' where c.coma_stt = 0;';
   _Sql.Open();
   j := 0;
   while not _Sql.Eof do
